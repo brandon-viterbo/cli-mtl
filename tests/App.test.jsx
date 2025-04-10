@@ -23,10 +23,10 @@ describe("App component", () => {
     const user = userEvent.setup();
 
     render(<App />);
-    const button = screen.getByRole("button", { name: "Clickez-moi"});
+    const button = screen.getByRole("button", { name: "Clickez-moi" });
 
     await user.click(button);
 
     expect(screen.getByRole("heading").textContent).toMatch(/la carte/i);
-  })
+  });
 });

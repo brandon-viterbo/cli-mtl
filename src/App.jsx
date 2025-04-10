@@ -1,10 +1,12 @@
-import { useState } from 'react';
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
   const [heading, setHeading] = useState("Cli-MTL");
 
-  const clickHandler = () => { setHeading("La Carte"); };
+  const clickHandler = () => {
+    setHeading("La Carte");
+  };
 
   return (
     <>
@@ -13,7 +15,7 @@ function App() {
         Clickez-moi
       </button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
