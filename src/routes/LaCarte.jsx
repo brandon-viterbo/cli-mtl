@@ -1,14 +1,10 @@
-import { useOutletContext } from "react-router-dom";
+import Map from "../components/Map/Map";
 
 function LaCarte() {
-  const context = useOutletContext();
-
-  console.log(context.places);
-
   return (
     <>
       <h2>Les Lieux Publics Climatisés à Montréal</h2>
-      <p>Quelques endroit</p>
+      <Map />
     </>
   );
 }
