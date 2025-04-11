@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
+import NavBar from "../components/NavBar/NavBar";
 
 let didInit = false;
 
@@ -13,7 +14,7 @@ function Root() {
 
   return (
     <>
-      <h1>Cli-MTL</h1>
+      <NavBar isError={false} />
       <Outlet />
     </>
   );

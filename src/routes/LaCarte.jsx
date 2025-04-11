@@ -1,7 +1,7 @@
 function LaCarte() {
   return (
     <>
-      <h1>Les Lieux Publics Climatisés à Montréal</h1>
+      <h2>Les Lieux Publics Climatisés à Montréal</h2>
       <p>Quelques endroit</p>
     </>
   );
