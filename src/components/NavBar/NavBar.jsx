@@ -22,7 +22,7 @@ function NavItems({ current, setCurrent }) {
   ];
 
   const listItems = navItemsData.map((item) => (
-    <li>
+    <li key={item.id}>
       <Link
         to={item.link}
         className={item.link === current ? styles.nav__link__UNDERLINE : ""}
@@ -38,7 +38,7 @@ function NavItems({ current, setCurrent }) {
   return <ul className={styles.nav__items}>{listItems}</ul>;
 }
 
-function NavBar({isError}) {
+function NavBar({ isError }) {
   const initial = isError ? "" : "/";
   const [current, setCurrent] = useState(initial);
 
