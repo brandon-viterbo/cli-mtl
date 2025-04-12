@@ -8,7 +8,7 @@ function PlaceCard({ place }) {
         <li>
           Adresse: {place.adresse_principale}, {place.ville}
         </li>
-        <li>Arrondissement: {place.arrondissement}</li>
+        <li>Arrondissement: {place.arrdondissement}</li>
         <li>Téléphone: {place.telephone}</li>
         <li>Accessibilité: {place.accessibilite}</li>
         <li>Lat: {place.lat}</li>
@@ -22,7 +22,7 @@ function Map() {
   const context = useOutletContext();
 
   const placeList = context.places.map((place) => (
-    <li key={crypto.randomUUID()}>
+    <li key={place.id}>
       <PlaceCard place={place.properties} />
     </li>
   ));
