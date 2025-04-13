@@ -7,8 +7,10 @@ let didInit = false;
 
 function Root() {
   const [places, setPlaces] = useState([]);
-  const [neighbourhoods, setNeighbourhoods] = useState([]);
-  const [accessibilityFeatures, setAccessibilityFeatures] = useState([]);
+  const [neighbourhoods, setNeighbourhoods] = useState(new Set([]));
+  const [accessibilityFeatures, setAccessibilityFeatures] = useState(
+    new Set([]),
+  );
 
   useEffect(() => {
     if (!didInit) {

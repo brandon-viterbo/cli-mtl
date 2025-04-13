@@ -1,15 +1,27 @@
+import { useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import Map from "../components/Map/Map";
-import CheckboxSelect from "../components/CheckboxSelect/CheckboxSelect";
+import CheckboxFilter from "../components/CheckboxFilter/CheckboxFilter";
+import { removeWhiteSpace } from "../scripts/utils";
 
-function Filters() {
+function Filters({ setAccessFilters, setNeighbourhoodFilters }) {
   const context = useOutletContext();
 
   const accessibilityFeaturesList = [...context.accessibilityFeatures].map(
-    (element) => <CheckboxSelect item={element} />
+    (element) => (
+      <CheckboxFilter
+        key={removeWhiteSpace(element)}
+        item={element}
+        setFilter={setAccessFilters}
+      />
+    ),
   );
   const neighbourhoodsList = [...context.neighbourhoods].map((element) => (
-    <CheckboxSelect item={element} />
+    <CheckboxFilter
+      key={removeWhiteSpace(element)}
+      item={element}
+      setFilter={setNeighbourhoodFilters}
+    />
   ));
 
   return (
@@ -30,11 +42,22 @@ function Filters() {
 }
 
 function LaCarte() {
+  const [accessFilters, setAccessFilters] = useState(new Set());
+  const [neighbourhoodFilters, setNeighbourhoodFilters] = useState(new Set());
+
+  console.log(accessFilters);
+
   return (
     <>
       <h2>Les Lieux Publics Climatisés à Montréal</h2>
-      <Map />
-      <Filters />
+      <Map
+        accessFilters={accessFilters}
+        neighbourhoodFilters={neighbourhoodFilters}
+      />
+      <Filters
+        setAccessFilters={setAccessFilters}
+        setNeighbourhoodFilters={setNeighbourhoodFilters}
+      />
     </>
   );
 }
