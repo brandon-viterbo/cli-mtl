@@ -1,23 +1,31 @@
 import { useOutletContext } from "react-router-dom";
 import Map from "../components/Map/Map";
+import CheckboxSelect from "../components/CheckboxSelect/CheckboxSelect";
 
 function Filters() {
   const context = useOutletContext();
 
-  console.log(context.neighbourhoods);
-
   const accessibilityFeaturesList = [...context.accessibilityFeatures].map(
-    (element) => <li key={crypto.randomUUID()}>{element}</li>,
+    (element) => <CheckboxSelect item={element} />
   );
   const neighbourhoodsList = [...context.neighbourhoods].map((element) => (
-    <li key={crypto.randomUUID()}>{element}</li>
+    <CheckboxSelect item={element} />
   ));
 
   return (
-    <div style={{ display: "flex" }}>
-      <ul>{accessibilityFeaturesList}</ul>
-      <ul>{neighbourhoodsList}</ul>
-    </div>
+    <form>
+      <h3>Filtres</h3>
+      <div style={{ display: "flex" }}>
+        <fieldset>
+          <legend>Accessibilité</legend>
+          <div>{accessibilityFeaturesList}</div>
+        </fieldset>
+        <fieldset>
+          <legend>Arrondissement</legend>
+          <div>{neighbourhoodsList}</div>
+        </fieldset>
+      </div>
+    </form>
   );
 }
 
