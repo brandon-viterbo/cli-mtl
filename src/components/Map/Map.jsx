@@ -41,9 +41,6 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     </li>
   ));
 
-  console.log(accessFilters.size === 0);
-  console.log(neighbourhoodFilters.size === 0);
-
   return <ul>{placeList}</ul>;
 }
 

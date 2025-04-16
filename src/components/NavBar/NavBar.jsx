@@ -44,11 +44,14 @@ function NavBar({ isError }) {
 
   return (
     <nav className={styles.nav}>
-      <h1>
-        <Link to="/" onClick={() => setCurrent("/")}>
-          Cli-MTL
-        </Link>
-      </h1>
+      <Link
+        className={styles.logo}
+        aria-label="Retourner à la carte"
+        to="/"
+        onClick={() => setCurrent("/")}
+      >
+        Cli-MTL
+      </Link>
       <NavItems current={current} setCurrent={setCurrent} />
     </nav>
   );

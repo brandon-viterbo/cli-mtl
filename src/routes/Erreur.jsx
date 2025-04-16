@@ -4,7 +4,9 @@ function Erreur() {
   return (
     <>
       <NavBar isError={true} />
-      <h2>404 Error Not found</h2>
+      <header>
+        <h1>404 Error Not found</h1>
+      </header>
     </>
   );
 }

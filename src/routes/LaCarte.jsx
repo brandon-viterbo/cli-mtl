@@ -26,7 +26,7 @@ function Filters({ setAccessFilters, setNeighbourhoodFilters }) {
 
   return (
     <form>
-      <h3>Filtres</h3>
+      <h2>Filtres</h2>
       <div style={{ display: "flex" }}>
         <fieldset>
           <legend>Accessibilité</legend>
@@ -45,19 +45,21 @@ function LaCarte() {
   const [accessFilters, setAccessFilters] = useState(new Set());
   const [neighbourhoodFilters, setNeighbourhoodFilters] = useState(new Set());
 
-  console.log(accessFilters);
-
   return (
     <>
-      <h2>Les Lieux Publics Climatisés à Montréal</h2>
-      <Map
-        accessFilters={accessFilters}
-        neighbourhoodFilters={neighbourhoodFilters}
-      />
-      <Filters
-        setAccessFilters={setAccessFilters}
-        setNeighbourhoodFilters={setNeighbourhoodFilters}
-      />
+      <header>
+        <h1>Les Lieux Publics Climatisés à Montréal</h1>
+      </header>
+      <main>
+        <Map
+          accessFilters={accessFilters}
+          neighbourhoodFilters={neighbourhoodFilters}
+        />
+        <Filters
+          setAccessFilters={setAccessFilters}
+          setNeighbourhoodFilters={setNeighbourhoodFilters}
+        />
+      </main>
     </>
   );
 }
