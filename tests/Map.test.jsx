@@ -59,8 +59,8 @@ describe("Map component", () => {
       </MockOutlet>,
     );
 
-    expect(screen.queryAllByText("Accessibilité: acc1")).toHaveLength(2);
-    expect(screen.queryByText("Accessibilité: acc2")).toBeNull();
+    expect(screen.queryAllByText("acc1")).toHaveLength(2);
+    expect(screen.queryByText("acc2")).toBeNull();
   });
 
   it("filters on selected neighbourhoods", () => {
@@ -117,8 +117,8 @@ describe("Map component", () => {
       </MockOutlet>,
     );
 
-    expect(screen.queryAllByText("Arrondissement: a_0")).toHaveLength(1);
-    expect(screen.queryByText("Arrondissement: b_1")).toBeNull();
+    expect(screen.queryAllByText("a_0")).toHaveLength(1);
+    expect(screen.queryByText("b_1")).toBeNull();
   });
 
   it("filters on selected accessibility features and neighbourhoods", () => {
@@ -175,7 +175,7 @@ describe("Map component", () => {
       </MockOutlet>,
     );
 
-    expect(screen.queryAllByText("Arrondissement: b_1")).toHaveLength(1);
-    expect(screen.queryByText("Accessibilité: acc1")).toBeNull();
+    expect(screen.queryAllByText("b_1")).toHaveLength(1);
+    expect(screen.queryByText("acc1")).toBeNull();
   });
 });

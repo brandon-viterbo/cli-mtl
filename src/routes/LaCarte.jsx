@@ -27,7 +27,7 @@ function Filters({ setAccessFilters, setNeighbourhoodFilters }) {
   return (
     <form>
       <h2>Filtres</h2>
-      <div style={{ display: "flex" }}>
+      <div className="center_with_flex">
         <fieldset>
           <legend>Accessibilité</legend>
           <div>{accessibilityFeaturesList}</div>

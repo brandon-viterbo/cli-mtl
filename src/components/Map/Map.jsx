@@ -1,19 +1,22 @@
 import { useOutletContext } from "react-router-dom";
+import styles from "./Map.module.css";
 
 function PlaceCard({ place }) {
   return (
     <>
-      <h3>{place.nom}</h3>
-      <ul>
-        <li>
-          Adresse: {place.adresse_principale}, {place.ville}
-        </li>
-        <li>Arrondissement: {place.arrdondissement}</li>
-        <li>Téléphone: {place.telephone}</li>
-        <li>Accessibilité: {place.accessibilite}</li>
-        <li>Lat: {place.lat}</li>
-        <li>Long: {place.long}</li>
-      </ul>
+      <div className={styles.places_list__card}>
+        <h3>{place.nom}</h3>
+        <ul>
+          <li>
+            <span>Adresse: </span>{place.adresse_principale}, {place.ville}
+          </li>
+          <li><span>Arrondissement: </span>{place.arrdondissement}</li>
+          <li><span>Téléphone: </span>{place.telephone}</li>
+          <li><span>Accessibilité: </span>{place.accessibilite}</li>
+          <li><span>Lat: </span>{place.lat}</li>
+          <li><span>Long: </span>{place.long}</li>
+        </ul>
+      </div>
     </>
   );
 }
@@ -41,7 +44,10 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     </li>
   ));
 
-  return <ul>{placeList}</ul>;
+  return(
+  <div className={styles.places_list}>
+    <ul>{placeList}</ul>
+  </div>);
 }
 
 export default Map;

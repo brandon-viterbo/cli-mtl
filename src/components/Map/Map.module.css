@@ -1,0 +1,20 @@
+.places_list {
+  display: grid;
+  grid-template-columns: minmax(320px, 500px);
+  overflow: scroll;
+}
+
+.places_list__card {
+  border: 1px solid hsl(0deg, 0%, 70%);
+  border-left: 0px;
+  padding: 1rem;
+}
+
+.places_list span {
+  font-weight: bold;
+}
+
+.places_list ul {
+  list-style-type: none;
+  padding: 0px;
+}
