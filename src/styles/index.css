@@ -71,11 +71,16 @@ h6 {
   End of Josh's reset
 */
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
 .center_with_flex {
   display: flex;
   justify-content: center;
+}
+
+.ol-attribution {
+  display: none;
 }

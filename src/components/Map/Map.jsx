@@ -1,5 +1,16 @@
+import { useEffect, useRef } from "react";
 import { useOutletContext } from "react-router-dom";
 import styles from "./Map.module.css";
+import { Map as OlMap, Overlay } from "ol";
+import { View } from "ol";
+import { toLonLat } from "ol/proj";
+import { Icon, Style } from "ol/style";
+import { Feature } from "ol";
+import { Vector as VectorSource } from "ol/source";
+import { OSM } from "ol/source";
+import { Point } from "ol/geom";
+import TileLayer from "ol/layer/Tile";
+import VectorLayer from "ol/layer/Vector";
 
 function PlaceCard({ place }) {
   return (
@@ -8,13 +19,29 @@ function PlaceCard({ place }) {
         <h3>{place.nom}</h3>
         <ul>
           <li>
-            <span>Adresse: </span>{place.adresse_principale}, {place.ville}
+            <span>Adresse: </span>
+            {place.adresse_principale}, {place.ville}
           </li>
-          <li><span>Arrondissement: </span>{place.arrdondissement}</li>
-          <li><span>Téléphone: </span>{place.telephone}</li>
-          <li><span>Accessibilité: </span>{place.accessibilite}</li>
-          <li><span>Lat: </span>{place.lat}</li>
-          <li><span>Long: </span>{place.long}</li>
+          <li>
+            <span>Arrondissement: </span>
+            {place.arrdondissement}
+          </li>
+          <li>
+            <span>Téléphone: </span>
+            {place.telephone}
+          </li>
+          <li>
+            <span>Accessibilité: </span>
+            {place.accessibilite}
+          </li>
+          <li>
+            <span>Lat: </span>
+            {place.lat}
+          </li>
+          <li>
+            <span>Long: </span>
+            {place.long}
+          </li>
         </ul>
       </div>
     </>
@@ -23,6 +50,8 @@ function PlaceCard({ place }) {
 
 function Map({ accessFilters, neighbourhoodFilters }) {
   const context = useOutletContext();
+  const mapRef = useRef();
+
   let filterFunc;
 
   if (accessFilters.size === 0 && neighbourhoodFilters.size === 0) {
@@ -44,10 +73,57 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     </li>
   ));
 
-  return(
-  <div className={styles.places_list}>
-    <ul>{placeList}</ul>
-  </div>);
+  const osm = new TileLayer({
+    preload: Infinity,
+    source: new OSM(),
+  });
+
+  const iconFeature = new Feature({
+    geometry: new Point([-73.619499, 45.520019]),
+    name: "Aréna d'Outremont",
+  });
+
+  const iconStyle = new Style({
+    image: new Icon({
+      anchor: [0.5, 46],
+      anchorXUnits: "fraction",
+      anchorYUnits: "pixels",
+      src: "https://openlayers.org/en/latest/examples/data/icon.png",
+    }),
+  });
+
+  iconFeature.setStyle(iconStyle);
+
+  const vectorSource = new VectorSource({
+    features: [iconFeature],
+  });
+
+  const vectorLayer = new VectorLayer({
+    source: vectorSource,
+  });
+
+  useEffect(() => {
+    const map = new OlMap({
+      target: mapRef.current,
+      layers: [osm, vectorLayer],
+      view: new View({
+        center: [-73.619499, 45.520019],
+        zoom: 3,
+      }),
+    });
+
+    return () => map.setTarget(null);
+  }, []);
+
+  return (
+    <>
+      <div ref={mapRef} className={styles.map} />
+      <p>© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.</p>
+      <div className={styles.places_list}>
+        <ul>{placeList}</ul>
+      </div>
+    </>
+  );
 }
 
 export default Map;
