@@ -53,7 +53,8 @@ function LaCarte() {
       <main>
         <Map
           accessFilters={accessFilters}
-          neighbourhoodFilters={neighbourhoodFilters} />
+          neighbourhoodFilters={neighbourhoodFilters}
+        />
         <Filters
           setAccessFilters={setAccessFilters}
           setNeighbourhoodFilters={setNeighbourhoodFilters}

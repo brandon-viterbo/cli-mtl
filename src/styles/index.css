@@ -81,6 +81,13 @@ h2 {
   justify-content: center;
 }
 
-.ol-attribution {
+.ol-attribution,
+.ol-rotate,
+.hide {
   display: none;
+}
+
+.ol-zoom {
+  display: flex;
+  justify-content: end;
 }

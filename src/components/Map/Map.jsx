@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import styles from "./Map.module.css";
 import { Map as OlMap, Overlay } from "ol";
@@ -51,6 +51,7 @@ function PlaceCard({ place }) {
 function Map({ accessFilters, neighbourhoodFilters }) {
   const context = useOutletContext();
   const mapRef = useRef();
+  const [showPlacesList, setShowPlacesList] = useState(true);
 
   let filterFunc;
 
@@ -117,11 +118,21 @@ function Map({ accessFilters, neighbourhoodFilters }) {
 
   return (
     <>
-      <div ref={mapRef} className={styles.map} />
-      <p>© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.</p>
-      <div className={styles.places_list}>
-        <ul>{placeList}</ul>
+      <div ref={mapRef} className={styles.map}>
+        <div className={showPlacesList ? styles.places_list : "hide"}>
+          <ul>{placeList}</ul>
+        </div>
+        <button onClick={() => setShowPlacesList((prev) => !prev)}>
+          Montrer la liste
+        </button>
       </div>
+      <p>
+        ©{" "}
+        <a href="https://www.openstreetmap.org/copyright" target="_blank">
+          OpenStreetMap
+        </a>{" "}
+        contributors.
+      </p>
     </>
   );
 }

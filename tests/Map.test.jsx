@@ -5,6 +5,14 @@ import MockOutlet from "./MockOutlet";
 import Map from "../src/components/Map/Map";
 
 describe("Map component", () => {
+  const ResizeObserverMock = vi.fn(() => ({
+    observe: vi.fn(),
+    unobserve: vi.fn(),
+    disconnect: vi.fn(),
+  }));
+
+  vi.stubGlobal("ResizeObserver", ResizeObserverMock);
+
   it("filters on selected accessibility features", () => {
     const mockContext = {
       places: [
