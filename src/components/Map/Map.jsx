@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import styles from "./Map.module.css";
 import { Map as OlMap, Overlay } from "ol";
 import { View } from "ol";
-import { toLonLat } from "ol/proj";
+import { toLonLat, transform } from "ol/proj";
 import { Icon, Style } from "ol/style";
 import { Feature } from "ol";
 import { Vector as VectorSource } from "ol/source";
@@ -54,7 +54,6 @@ function Map({ accessFilters, neighbourhoodFilters }) {
   const [showPlacesList, setShowPlacesList] = useState(true);
 
   let filterFunc;
-
   if (accessFilters.size === 0 && neighbourhoodFilters.size === 0) {
     filterFunc = (place) => true;
   } else if (accessFilters.size !== 0 && neighbourhoodFilters.size === 0) {
@@ -68,7 +67,8 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       neighbourhoodFilters.has(place.properties.arrdondissement);
   }
 
-  const placeList = context.places.filter(filterFunc).map((place) => (
+  const placesArr = context.places.filter(filterFunc);
+  const placesListItems = placesArr.map((place) => (
     <li key={place.id}>
       <PlaceCard place={place.properties} />
     </li>
@@ -79,11 +79,6 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     source: new OSM(),
   });
 
-  const iconFeature = new Feature({
-    geometry: new Point([-73.619499, 45.520019]),
-    name: "Aréna d'Outremont",
-  });
-
   const iconStyle = new Style({
     image: new Icon({
       anchor: [0.5, 46],
@@ -91,12 +86,45 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       anchorYUnits: "pixels",
       src: "https://openlayers.org/en/latest/examples/data/icon.png",
     }),
+  }); 
+
+  const iconFeatures = placesArr.map((place) => {
+    const result = new Feature({
+      geometry: new Point(
+        transform(
+          [place.properties.long, place.properties.lat],
+          "EPSG:4326",
+          "EPSG:3857",
+        )
+      ),
+      name: place.properties.nom,
+      id: place.id,
+    });
+
+    result.setStyle(iconStyle);
+
+    return result;
+  });
+
+  const iconFeature = new Feature({
+    geometry: new Point(
+      transform([-73.619499, 45.520019], "EPSG:4326", "EPSG:3857"),
+    ),
+    name: "Aréna d'Outremont",
+  });
+
+  const iconFeature2 = new Feature({
+    geometry: new Point(
+      transform([-73.606815, 45.56529], "EPSG:4326", "EPSG:3857"),
+    ),
+    name: "Aréna de Saint-Michel",
   });
 
   iconFeature.setStyle(iconStyle);
+  iconFeature2.setStyle(iconStyle);
 
   const vectorSource = new VectorSource({
-    features: [iconFeature],
+    features: iconFeatures,
   });
 
   const vectorLayer = new VectorLayer({
@@ -109,18 +137,18 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       layers: [osm, vectorLayer],
       view: new View({
         center: [-73.619499, 45.520019],
-        zoom: 3,
+        zoom: 0,
       }),
     });
 
     return () => map.setTarget(null);
-  }, []);
+  }, [vectorLayer]);
 
   return (
     <>
       <div ref={mapRef} className={styles.map}>
         <div className={showPlacesList ? styles.places_list : "hide"}>
-          <ul>{placeList}</ul>
+          <ul>{placesListItems}</ul>
         </div>
         <button onClick={() => setShowPlacesList((prev) => !prev)}>
           Montrer la liste
