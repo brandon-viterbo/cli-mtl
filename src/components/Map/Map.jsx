@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import styles from "./Map.module.css";
 import { Map as OlMap, Overlay } from "ol";
 import { View } from "ol";
-import { toLonLat, transform } from "ol/proj";
+import { fromLonLat, transform, transformExtent } from "ol/proj";
 import { Icon, Style } from "ol/style";
 import { Feature } from "ol";
 import { Vector as VectorSource } from "ol/source";
@@ -106,23 +106,6 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     return result;
   });
 
-  const iconFeature = new Feature({
-    geometry: new Point(
-      transform([-73.619499, 45.520019], "EPSG:4326", "EPSG:3857"),
-    ),
-    name: "Aréna d'Outremont",
-  });
-
-  const iconFeature2 = new Feature({
-    geometry: new Point(
-      transform([-73.606815, 45.56529], "EPSG:4326", "EPSG:3857"),
-    ),
-    name: "Aréna de Saint-Michel",
-  });
-
-  iconFeature.setStyle(iconStyle);
-  iconFeature2.setStyle(iconStyle);
-
   const vectorSource = new VectorSource({
     features: iconFeatures,
   });
@@ -136,8 +119,15 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       target: mapRef.current,
       layers: [osm, vectorLayer],
       view: new View({
-        center: [-73.619499, 45.520019],
+        center: fromLonLat([-73.8067895764, 45.5494342941]),
         zoom: 0,
+        minZoom: 0,
+        maxZoom: 17,
+        extent: transformExtent(
+          [-74.62539719128334, 45.32722229453976, -72.98818196154667, 45.77164629360345],
+          'EPSG:4326', 
+          'EPSG:3857'
+        )
       }),
     });
 
