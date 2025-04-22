@@ -51,7 +51,15 @@ function PlaceCard({ place }) {
 function Map({ accessFilters, neighbourhoodFilters }) {
   const context = useOutletContext();
   const mapRef = useRef();
-  const [showPlacesList, setShowPlacesList] = useState(true);
+  const listRef = useRef(null);
+
+  function toggleVisibility() {
+    if (listRef.current.style.display === "none") {
+      listRef.current.style.display = "block";
+    } else {
+      listRef.current.style.display = "none"
+    }
+  }
 
   let filterFunc;
   if (accessFilters.size === 0 && neighbourhoodFilters.size === 0) {
@@ -137,10 +145,10 @@ function Map({ accessFilters, neighbourhoodFilters }) {
   return (
     <>
       <div ref={mapRef} className={styles.map}>
-        <div className={showPlacesList ? styles.places_list : "hide"}>
+        <div ref={listRef} className={styles.places_list}>
           <ul>{placesListItems}</ul>
         </div>
-        <button onClick={() => setShowPlacesList((prev) => !prev)}>
+        <button onClick={() => toggleVisibility()}>
           Montrer la liste
         </button>
       </div>

@@ -90,4 +90,6 @@ h2 {
 .ol-zoom {
   display: flex;
   justify-content: end;
+  padding-right: 1rem;
+  padding-top: 1rem; 
 }

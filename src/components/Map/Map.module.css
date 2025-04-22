@@ -20,6 +20,8 @@
   z-index: 1;
   bottom: 0px;
   right: 0px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .places_list__card {
