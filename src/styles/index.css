@@ -76,6 +76,10 @@ h2 {
   text-align: center;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .center_with_flex {
   display: flex;
   justify-content: center;
@@ -91,5 +95,9 @@ h2 {
   display: flex;
   justify-content: end;
   padding-right: 1rem;
-  padding-top: 1rem; 
+  padding-top: 1rem;
+}
+
+.relative-container {
+  position: relative;
 }

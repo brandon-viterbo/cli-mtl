@@ -52,12 +52,15 @@ function Map({ accessFilters, neighbourhoodFilters }) {
   const context = useOutletContext();
   const mapRef = useRef();
   const listRef = useRef(null);
+  const buttonRef = useRef(null);
 
   function toggleVisibility() {
     if (listRef.current.style.display === "none") {
       listRef.current.style.display = "block";
+      buttonRef.current.style.display = "none";
     } else {
-      listRef.current.style.display = "none"
+      listRef.current.style.display = "none";
+      buttonRef.current.style.display = "block";
     }
   }
 
@@ -94,7 +97,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       anchorYUnits: "pixels",
       src: "https://openlayers.org/en/latest/examples/data/icon.png",
     }),
-  }); 
+  });
 
   const iconFeatures = placesArr.map((place) => {
     const result = new Feature({
@@ -103,7 +106,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
           [place.properties.long, place.properties.lat],
           "EPSG:4326",
           "EPSG:3857",
-        )
+        ),
       ),
       name: place.properties.nom,
       id: place.id,
@@ -132,10 +135,13 @@ function Map({ accessFilters, neighbourhoodFilters }) {
         minZoom: 0,
         maxZoom: 17,
         extent: transformExtent(
-          [-74.62539719128334, 45.32722229453976, -72.98818196154667, 45.77164629360345],
-          'EPSG:4326', 
-          'EPSG:3857'
-        )
+          [
+            -74.62539719128334, 45.32722229453976, -72.98818196154667,
+            45.77164629360345,
+          ],
+          "EPSG:4326",
+          "EPSG:3857",
+        ),
       }),
     });
 
@@ -145,10 +151,19 @@ function Map({ accessFilters, neighbourhoodFilters }) {
   return (
     <>
       <div ref={mapRef} className={styles.map}>
-        <div ref={listRef} className={styles.places_list}>
-          <ul>{placesListItems}</ul>
+        <div ref={listRef}>
+          <ul className={styles.places_list}>
+            <button
+              aria-label="fermer"
+              onClick={() => toggleVisibility()}
+              className={styles.places_list__close_button}
+            >
+              x
+            </button>
+            {placesListItems}
+          </ul>
         </div>
-        <button onClick={() => toggleVisibility()}>
+        <button ref={buttonRef} onClick={() => toggleVisibility()}>
           Montrer la liste
         </button>
       </div>
