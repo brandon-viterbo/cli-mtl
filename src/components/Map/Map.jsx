@@ -51,17 +51,22 @@ function PlaceCard({ place }) {
 function Map({ accessFilters, neighbourhoodFilters }) {
   const context = useOutletContext();
   const mapRef = useRef();
+  const listContainerRef = useRef(null);
   const listRef = useRef(null);
   const buttonRef = useRef(null);
 
   function toggleVisibility() {
-    if (listRef.current.style.display === "none") {
-      listRef.current.style.display = "block";
+    if (listContainerRef.current.style.display === "none") {
+      listContainerRef.current.style.display = "block";
       buttonRef.current.style.display = "none";
     } else {
-      listRef.current.style.display = "none";
+      listContainerRef.current.style.display = "none";
       buttonRef.current.style.display = "block";
     }
+  }
+
+  function getClassName(id) {
+    return `c${id}`;
   }
 
   let filterFunc;
@@ -80,7 +85,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
 
   const placesArr = context.places.filter(filterFunc);
   const placesListItems = placesArr.map((place) => (
-    <li key={place.id}>
+    <li key={place.id} className={getClassName(place.id)}>
       <PlaceCard place={place.properties} />
     </li>
   ));
@@ -125,6 +130,23 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     source: vectorSource,
   });
 
+  function scrollToPlace(pixel) {
+    vectorLayer.getFeatures(pixel).then((features) => {
+      const thisFeature = features.length ? features[0] : undefined;
+      const listNode = listRef.current;
+
+      if (thisFeature !== undefined) {
+        console.log(thisFeature.values_.name, thisFeature.values_.id);
+        console.log(listNode);
+        const placeNode = listNode.querySelector(
+          `[class=${getClassName(thisFeature.values_.id)}]`,
+        );
+
+        placeNode.scrollIntoView();
+      }
+    });
+  }
+
   useEffect(() => {
     const map = new OlMap({
       target: mapRef.current,
@@ -145,21 +167,25 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       }),
     });
 
+    map.on("click", (e) => {
+      scrollToPlace(e.pixel);
+    });
+
     return () => map.setTarget(null);
   }, [vectorLayer]);
 
   return (
     <>
       <div ref={mapRef} className={styles.map}>
-        <div ref={listRef}>
-          <ul className={styles.places_list}>
-            <button
-              aria-label="fermer"
-              onClick={() => toggleVisibility()}
-              className={styles.places_list__close_button}
-            >
-              x
-            </button>
+        <div ref={listContainerRef} className={styles.list_container}>
+          <button
+            aria-label="fermer"
+            onClick={() => toggleVisibility()}
+            className={styles.places_list__close_button}
+          >
+            x
+          </button>
+          <ul ref={listRef} className={styles.places_list}>
             {placesListItems}
           </ul>
         </div>
