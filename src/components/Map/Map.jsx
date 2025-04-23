@@ -11,6 +11,8 @@ import { OSM } from "ol/source";
 import { Point } from "ol/geom";
 import TileLayer from "ol/layer/Tile";
 import VectorLayer from "ol/layer/Vector";
+import defaultMarker from "../../resources/images/default-map-marker.png";
+import selectedMarker from "../../resources/images/selected-map-marker.png";
 
 function PlaceCard({ place }) {
   return (
@@ -54,6 +56,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
   const listContainerRef = useRef(null);
   const listRef = useRef(null);
   const buttonRef = useRef(null);
+  const selectedPlaceRef = useRef(null);
 
   function toggleVisibility() {
     if (listContainerRef.current.style.display === "none") {
@@ -85,7 +88,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
 
   const placesArr = context.places.filter(filterFunc);
   const placesListItems = placesArr.map((place) => (
-    <li key={place.id} className={getClassName(place.id)}>
+    <li key={place.id} className={getClassName(place.id)} onClick={() => handleListClick(place.id)}>
       <PlaceCard place={place.properties} />
     </li>
   ));
@@ -100,7 +103,16 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       anchor: [0.5, 46],
       anchorXUnits: "fraction",
       anchorYUnits: "pixels",
-      src: "https://openlayers.org/en/latest/examples/data/icon.png",
+      src: defaultMarker,
+    }),
+  });
+
+  const selectedIconStyle = new Style({
+    image: new Icon({
+      anchor: [0.5, 46],
+      anchorXUnits: "fraction",
+      anchorYUnits: "pixels",
+      src: selectedMarker,
     }),
   });
 
@@ -130,19 +142,46 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     source: vectorSource,
   });
 
-  function scrollToPlace(pixel) {
+  function highlightSelectedPlace(placeId) {
+    iconFeatures.forEach((place) => {
+      if (place.values_.id === placeId) {
+        place.setStyle(selectedIconStyle);
+      } else {
+        place.setStyle(iconStyle);
+      }
+    });
+  }
+
+  function scrollToSelectedPlace(listNode, className) {
+    const prevSelected = listNode.querySelector(
+      `[class=${selectedPlaceRef.current}]`,
+    );
+    const placeNode = listNode.querySelector(`[class=${className}]`);
+    if (prevSelected !== null) {
+      prevSelected.style.backgroundColor = "white";
+    }
+
+    selectedPlaceRef.current = className;
+    placeNode.style.backgroundColor = "hsl(0deg, 0%, 70%)";
+    placeNode.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "start",
+    });
+  }
+
+  function handleListClick(placeId) {
+    scrollToSelectedPlace(listRef.current, getClassName(placeId))
+    highlightSelectedPlace(placeId);
+  }
+
+  function handleIconClick(pixel) {
     vectorLayer.getFeatures(pixel).then((features) => {
       const thisFeature = features.length ? features[0] : undefined;
-      const listNode = listRef.current;
 
       if (thisFeature !== undefined) {
-        console.log(thisFeature.values_.name, thisFeature.values_.id);
-        console.log(listNode);
-        const placeNode = listNode.querySelector(
-          `[class=${getClassName(thisFeature.values_.id)}]`,
-        );
-
-        placeNode.scrollIntoView();
+        scrollToSelectedPlace(listRef.current, getClassName(thisFeature.values_.id))
+        highlightSelectedPlace(thisFeature.values_.id);
       }
     });
   }
@@ -168,7 +207,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
     });
 
     map.on("click", (e) => {
-      scrollToPlace(e.pixel);
+      handleIconClick(e.pixel);
     });
 
     return () => map.setTarget(null);
@@ -199,6 +238,18 @@ function Map({ accessFilters, neighbourhoodFilters }) {
           OpenStreetMap
         </a>{" "}
         contributors.
+      </p>
+      <p>
+        <strong>
+          Avertissement: Malheureusement,{" "}
+          <a href="https://donnees.montreal.ca/dataset/lieux-publics-climatises">
+            les données
+          </a>{" "}
+          ustilisé par ce site sont pas toujours bonnes pour l'arrondissement.
+          Par exemple, pour Bibliothèque Benny, l'arrondissement dans les
+          données est Ahuntsic-Cartierville. En réalité, elle se trouve dans
+          Côte-des-Neiges–Notre-Dame-de-Grâce.
+        </strong>
       </p>
     </>
   );
