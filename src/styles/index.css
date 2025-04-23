@@ -97,3 +97,8 @@ button:hover {
   padding-right: 1rem;
   padding-top: 1rem;
 }
+
+.word-container {
+  text-indent: 2rem;
+  margin: 1rem 5rem;
+}

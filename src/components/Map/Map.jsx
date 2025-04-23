@@ -88,7 +88,11 @@ function Map({ accessFilters, neighbourhoodFilters }) {
 
   const placesArr = context.places.filter(filterFunc);
   const placesListItems = placesArr.map((place) => (
-    <li key={place.id} className={getClassName(place.id)} onClick={() => handleListClick(place.id)}>
+    <li
+      key={place.id}
+      className={getClassName(place.id)}
+      onClick={() => handleListClick(place.id)}
+    >
       <PlaceCard place={place.properties} />
     </li>
   ));
@@ -113,6 +117,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       anchorXUnits: "fraction",
       anchorYUnits: "pixels",
       src: selectedMarker,
+      scale: 1.25,
     }),
   });
 
@@ -171,7 +176,7 @@ function Map({ accessFilters, neighbourhoodFilters }) {
   }
 
   function handleListClick(placeId) {
-    scrollToSelectedPlace(listRef.current, getClassName(placeId))
+    scrollToSelectedPlace(listRef.current, getClassName(placeId));
     highlightSelectedPlace(placeId);
   }
 
@@ -180,7 +185,10 @@ function Map({ accessFilters, neighbourhoodFilters }) {
       const thisFeature = features.length ? features[0] : undefined;
 
       if (thisFeature !== undefined) {
-        scrollToSelectedPlace(listRef.current, getClassName(thisFeature.values_.id))
+        scrollToSelectedPlace(
+          listRef.current,
+          getClassName(thisFeature.values_.id),
+        );
         highlightSelectedPlace(thisFeature.values_.id);
       }
     });
@@ -239,18 +247,20 @@ function Map({ accessFilters, neighbourhoodFilters }) {
         </a>{" "}
         contributors.
       </p>
-      <p>
-        <strong>
-          Avertissement: Malheureusement,{" "}
-          <a href="https://donnees.montreal.ca/dataset/lieux-publics-climatises">
-            les données
-          </a>{" "}
-          ustilisé par ce site sont pas toujours bonnes pour l'arrondissement.
-          Par exemple, pour Bibliothèque Benny, l'arrondissement dans les
-          données est Ahuntsic-Cartierville. En réalité, elle se trouve dans
-          Côte-des-Neiges–Notre-Dame-de-Grâce.
-        </strong>
-      </p>
+      <div className="word-container">
+        <p>
+          <strong>
+            Avertissement: Malheureusement,{" "}
+            <a href="https://donnees.montreal.ca/dataset/lieux-publics-climatises">
+              les données
+            </a>{" "}
+            ustilisé par ce site sont pas toujours bonnes pour l'arrondissement.
+            Par exemple, pour Bibliothèque Benny, l'arrondissement dans les
+            données est Ahuntsic-Cartierville. En réalité, elle se trouve dans
+            Côte-des-Neiges–Notre-Dame-de-Grâce.
+          </strong>
+        </p>
+      </div>
     </>
   );
 }

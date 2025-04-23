@@ -5,7 +5,9 @@ function Contact() {
         <h1>Contact</h1>
       </header>
       <main>
-        <p>Contactez-moi à 555-555-5555</p>
+        <div className="word-container">
+          <p>Contactez-moi à [x]@gmail.com, tels que <i>x</i> est "brandon[y]viterbo", tels que <i>y</i> est "j". Avec espoir, les bots seraient pas capables de me contacter.</p>
+        </div>
       </main>
     </>
   );

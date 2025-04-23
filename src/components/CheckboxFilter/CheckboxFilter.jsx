@@ -1,4 +1,5 @@
 import { removeWhiteSpace } from "../../scripts/utils";
+import styles from "./CheckboxFilter.module.css"
 
 function CheckboxFilter({ item, setFilter }) {
   function handleClick(e, item) {
@@ -12,7 +13,7 @@ function CheckboxFilter({ item, setFilter }) {
   }
 
   return (
-    <div>
+    <div className={styles.checkbox_filter}>
       <input
         type="checkbox"
         id={removeWhiteSpace(item)}
