@@ -1,5 +1,5 @@
 import { removeWhiteSpace } from "../../scripts/utils";
-import styles from "./CheckboxFilter.module.css"
+import styles from "./CheckboxFilter.module.css";
 
 function CheckboxFilter({ item, setFilter }) {
   function handleClick(e, item) {
