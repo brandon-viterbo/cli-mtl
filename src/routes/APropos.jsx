@@ -18,16 +18,17 @@ function APropos() {
               Selon l'INSPQ
             </a>
             , les lieux publics climatisés sont une mesure de protection contre
-            la chaleur. En plus, les applications cartographiques sont utiles pour
-            visualiser "les facteurs de protection ou de vulnérabilité pouvant
-            influencer les effets de la chaleur sur la santé humaine."
+            la chaleur. En plus, les applications cartographiques sont utiles
+            pour visualiser "les facteurs de protection ou de vulnérabilité
+            pouvant influencer les effets de la chaleur sur la santé humaine."
           </p>
           <p>
             Elle utilise des{" "}
             <a href="https://donnees.montreal.ca/dataset/lieux-publics-climatises">
               données ouvertes
             </a>{" "}
-            disponibles grace à la ville de Montréal. La carte elle-même est fait avec <a href="https://openlayers.org/">OpenLayers</a> 
+            disponibles grace à la ville de Montréal. La carte elle-même est
+            fait avec <a href="https://openlayers.org/">OpenLayers</a>
             <a href="https://www.flaticon.com/free-icons/red" title="red icons">
               Marqueurs
             </a>{" "}

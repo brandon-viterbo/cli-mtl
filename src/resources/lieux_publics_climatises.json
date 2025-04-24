@@ -1,0 +1,3060 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna d'Outremont",
+        "ville": "Montréal",
+        "adresse_principale": "999, avenue McEachran",
+        "telephone": "5144956211",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.619499,
+        "lat": 45.520019
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.619499, 45.520019] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna de Saint-Michel",
+        "ville": "Montréal",
+        "adresse_principale": "3440, rue Jarry Est",
+        "telephone": "5148723491",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.606815,
+        "lat": 45.56529
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.606815, 45.56529] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna Rolland",
+        "ville": "Montréal",
+        "adresse_principale": "12000, boulevard Rolland",
+        "telephone": "5143284000",
+        "telephone_numero_poste": "4267",
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Zone de débarcadère pour transport adapté",
+        "long": -73.620739075119644,
+        "lat": 45.615695512608028
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.620739075119644, 45.615695512608028]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna Rodrigue-Gilbert",
+        "ville": "Montréal",
+        "adresse_principale": "1515, boulevard du Tricentenaire",
+        "telephone": "5148726104",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Accessible en fauteuil roulant",
+        "long": -73.500244,
+        "lat": 45.651922
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.500244, 45.651922] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna René-Masson",
+        "ville": "Montréal",
+        "adresse_principale": "9175, boulevard Perras",
+        "telephone": "5148726266",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": "Barre d'appui",
+        "long": -73.57962,
+        "lat": 45.652371
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.57962, 45.652371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna Raymond-Bourque",
+        "ville": "Montréal",
+        "adresse_principale": "2345, boulevard Thimens",
+        "telephone": "5149562580",
+        "telephone_numero_poste": "4700",
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Entrée accessible alternative",
+        "long": -73.705298,
+        "lat": 45.507514
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.705298, 45.507514] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna Martin-Brodeur",
+        "ville": "Montréal",
+        "adresse_principale": "5300, boulevard Robert",
+        "telephone": "5143288500",
+        "telephone_numero_poste": "8499",
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Zone de débarcadère pour transport adapté",
+        "long": -73.598490893814997,
+        "lat": 45.585343532053002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.598490893814997, 45.585343532053002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna Howie-Morenz",
+        "ville": "Montréal",
+        "adresse_principale": "8650, avenue Querbes",
+        "telephone": "5148726672",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Ascenseur",
+        "long": -73.644042,
+        "lat": 45.534184
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.644042, 45.534184] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Auditorium de Verdun",
+        "ville": "Montréal",
+        "adresse_principale": "4110, boulevard LaSalle",
+        "telephone": "5147657130",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rosemont–La Petite-Patrie",
+        "accessibilite": "Entrée accessible alternative",
+        "long": -73.562968,
+        "lat": 45.462396
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.562968, 45.462396] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Aréna Bill-Durnan",
+        "ville": "Montréal",
+        "adresse_principale": "4988, rue Vézina",
+        "telephone": "5148726073",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.644088,
+        "lat": 45.494697
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.644088, 45.494697] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque William-G.-Boll",
+        "ville": "Montréal",
+        "adresse_principale": "110, rue Cartier",
+        "telephone": "5146848247",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.814617,
+        "lat": 45.50267
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.814617, 45.50267] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque de Pierrefonds",
+        "ville": "Montréal",
+        "adresse_principale": "13555, boulevard de Pierrefonds",
+        "telephone": "5146261800",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Signalisation accessible",
+        "long": -73.847222328186007,
+        "lat": 45.496195210507999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.847222328186007, 45.496195210507999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Robert-Bourassa",
+        "ville": "Montréal",
+        "adresse_principale": "41, avenue Saint-Just",
+        "telephone": "5144956208",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Pierrefonds-Roxboro",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.608452,
+        "lat": 45.517934
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.608452, 45.517934] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque L'Octogone",
+        "ville": "Montréal",
+        "adresse_principale": "1080, avenue Dollard",
+        "telephone": "5143676376",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Pierrefonds-Roxboro",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.623604137830526,
+        "lat": 45.424243263387069
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.623604137830526, 45.424243263387069]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Saul-Bellow",
+        "ville": "Montréal",
+        "adresse_principale": "3100, rue Saint-Antoine",
+        "telephone": "5148725080",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Outremont",
+        "accessibilite": "Ascenseur",
+        "long": -73.691033,
+        "lat": 45.440449
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.691033, 45.440449] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Yves-Ryan",
+        "ville": "Montréal",
+        "adresse_principale": "4740, rue de Charleroi",
+        "telephone": "5143284000",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.631285,
+        "lat": 45.596396
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.631285, 45.596396] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Saint-Henri",
+        "ville": "Montréal",
+        "adresse_principale": "4707, rue Notre-Dame Ouest",
+        "telephone": "5148722879",
+        "telephone_numero_poste": null,
+        "arrdondissement": "L'Île-Bizard–Sainte-Geneviève",
+        "accessibilite": "Accessible en fauteuil roulant",
+        "long": -73.589737,
+        "lat": 45.472526
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.589737, 45.472526] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Saint-Charles",
+        "ville": "Montréal",
+        "adresse_principale": "1050, rue d'Hibernia",
+        "telephone": "5148723092",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Accessible en fauteuil roulant avec assistance",
+        "long": -73.564457,
+        "lat": 45.478891
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.564457, 45.478891] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Père-Ambroise",
+        "ville": "Montréal",
+        "adresse_principale": "2093, rue de la Visitation",
+        "telephone": "5148721633",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.562746,
+        "lat": 45.523001
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.562746, 45.523001] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Mordecai-Richler",
+        "ville": "Montréal",
+        "adresse_principale": "5434, avenue du Parc",
+        "telephone": "5148722141",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Ascenseur",
+        "long": -73.601661,
+        "lat": 45.521642
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.601661, 45.521642] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Mercier",
+        "ville": "Montréal",
+        "adresse_principale": "8105, rue Hochelaga",
+        "telephone": "5148728738",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Barre d'appui",
+        "long": -73.523843,
+        "lat": 45.595475
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.523843, 45.595475] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Marc-Favreau",
+        "ville": "Montréal",
+        "adresse_principale": "500, boulevard Rosemont",
+        "telephone": "5148727272",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Places de stationnement réservées (vignette)",
+        "long": -73.595735,
+        "lat": 45.531723
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.595735, 45.531723] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Maisonneuve",
+        "ville": "Montréal",
+        "adresse_principale": "4120, rue Ontario Est",
+        "telephone": "5148724213",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Porte à ouverture automatique",
+        "long": -73.540722,
+        "lat": 45.550621
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.540722, 45.550621] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Langelier",
+        "ville": "Montréal",
+        "adresse_principale": "6473, rue Sherbrooke Est",
+        "telephone": "5148722640",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Toilette accessible en cabine",
+        "long": -73.544271,
+        "lat": 45.581644
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.544271, 45.581644] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Jean-Corbeil",
+        "ville": "Montréal",
+        "adresse_principale": "7500, avenue Goncourt",
+        "telephone": "5144938260",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.558411,
+        "lat": 45.602902
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.558411, 45.602902] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Jacqueline-De Repentigny",
+        "ville": "Montréal",
+        "adresse_principale": "5955, avenue Bannantyne",
+        "telephone": "5147657172",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.579007,
+        "lat": 45.448625
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.579007, 45.448625] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque interculturelle",
+        "ville": "Montréal",
+        "adresse_principale": "6767, chemin de la Côte-des-Neiges",
+        "telephone": "5148684715",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.636934,
+        "lat": 45.503324
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.636934, 45.503324] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Hochelaga",
+        "ville": "Montréal",
+        "adresse_principale": "1870, rue Davidson",
+        "telephone": "5148723666",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.544566,
+        "lat": 45.542153
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.544566, 45.542153] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Henri-Bourassa",
+        "ville": "Montréal",
+        "adresse_principale": "5400, boulevard Henri-Bourassa Est",
+        "telephone": "5143284000",
+        "telephone_numero_poste": "4125",
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Ascenseur",
+        "long": -73.625023,
+        "lat": 45.604607
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.625023, 45.604607] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Frontenac",
+        "ville": "Montréal",
+        "adresse_principale": "2550, rue Ontario Est",
+        "telephone": "5148727888",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Signalisation accessible",
+        "long": -73.551399,
+        "lat": 45.532827
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.551399, 45.532827] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque du Vieux-Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "1380, rue de l'Église",
+        "telephone": "5148556130",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.6764,
+        "lat": 45.512818
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.6764, 45.512818] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque du Plateau-Mont-Royal",
+        "ville": "Montréal",
+        "adresse_principale": "465, avenue du Mont-Royal Est",
+        "telephone": "5148722270",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.582684,
+        "lat": 45.524952
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.582684, 45.524952] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque du Haut-Anjou",
+        "ville": "Montréal",
+        "adresse_principale": "7070, rue Jarry Est",
+        "telephone": "5144938271",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.575707,
+        "lat": 45.601156
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.575707, 45.601156] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque du Boisé",
+        "ville": "Montréal",
+        "adresse_principale": "2727, boulevard Thimens",
+        "telephone": "5148556130",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.704747,
+        "lat": 45.504489
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.704747, 45.504489] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque de Saint-Léonard",
+        "ville": "Montréal",
+        "adresse_principale": "8420, boulevard Lacordaire",
+        "telephone": "5143288500",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.598376,
+        "lat": 45.58577
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.598376, 45.58577] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque de Rivière-des-Prairies",
+        "ville": "Montréal",
+        "adresse_principale": "9001, boulevard Perras",
+        "telephone": "5148729425",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Places de stationnement réservées (vignette)",
+        "long": -73.578922,
+        "lat": 45.650106
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.578922, 45.650106] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Serge-Bouchard",
+        "ville": "Montréal",
+        "adresse_principale": "14001, rue Notre-Dame Est",
+        "telephone": "5148726987",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rosemont–La Petite-Patrie",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.494899,
+        "lat": 45.667876
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.494899, 45.667876] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque de L'Île-des-Sœurs",
+        "ville": "Montréal",
+        "adresse_principale": "260, rue Elgar",
+        "telephone": "5147657266",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.547471043843302,
+        "lat": 45.457088208935119
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.547471043843302, 45.457088208935119]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque de La Petite-Patrie",
+        "ville": "Montréal",
+        "adresse_principale": "6707, avenue De Lorimier",
+        "telephone": "5148721733",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.598139,
+        "lat": 45.54742
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.598139, 45.54742] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Julio-Jean-Pierre (MCC)",
+        "ville": "Montréal",
+        "adresse_principale": "12002, boulevard Rolland",
+        "telephone": "5143284000",
+        "telephone_numero_poste": "5626",
+        "arrdondissement": "Verdun",
+        "accessibilite": "Accessible en fauteuil roulant",
+        "long": -73.62235,
+        "lat": 45.615812
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.62235, 45.615812] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque de Cartierville",
+        "ville": "Montréal",
+        "adresse_principale": "5900, rue de Salaberry",
+        "telephone": "5148726989",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.713117,
+        "lat": 45.526951
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.713117, 45.526951] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque d'Ahuntsic",
+        "ville": "Montréal",
+        "adresse_principale": "10300, rue Lajeunesse",
+        "telephone": "5148720568",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Accessible en fauteuil roulant avec assistance",
+        "long": -73.662956,
+        "lat": 45.553373
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.662956, 45.553373] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bibliothèque Benny",
+        "ville": "Montréal",
+        "adresse_principale": "6400, avenue de Monkland",
+        "telephone": "5148724147",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.630973995250997,
+        "lat": 45.466297169481003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.630973995250997, 45.466297169481003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire Gerry-Robertson",
+        "ville": "Montréal",
+        "adresse_principale": "9665, boulevard Gouin Ouest",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.783267,
+        "lat": 45.504773
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.783267, 45.504773] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire intergénérationnel (CCI)",
+        "ville": "Montréal",
+        "adresse_principale": "999, avenue McEachran",
+        "telephone": "5144956211",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.619499,
+        "lat": 45.520019
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.619499, 45.520019] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre Roger-Rousseau",
+        "ville": "Montréal",
+        "adresse_principale": "7501, avenue Rondeau",
+        "telephone": "5144938234",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Outremont",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.549869,
+        "lat": 45.61682
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.549869, 45.61682] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre Jean-Claude-Malépart",
+        "ville": "Montréal",
+        "adresse_principale": "2633, rue Ontario Est",
+        "telephone": "5148680893",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.552098870277007,
+        "lat": 45.534002846798998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.552098870277007, 45.534002846798998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre du Plateau",
+        "ville": "Montréal",
+        "adresse_principale": "2275, boulevard Saint-Joseph Est",
+        "telephone": "5148726830",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.575971,
+        "lat": 45.539769
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.575971, 45.539769] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire Roussin",
+        "ville": "Montréal",
+        "adresse_principale": "12125, rue Notre-Dame Est",
+        "telephone": "5146454519",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.490423540563,
+        "lat": 45.640411161301003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.490423540563, 45.640411161301003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire Marcel-Giroux",
+        "ville": "Montréal",
+        "adresse_principale": "4501, avenue Bannantyne",
+        "telephone": "5147657150",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": "Accessible en fauteuil roulant avec assistance",
+        "long": -73.57681,
+        "lat": 45.459358
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.57681, 45.459358] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire Elgar",
+        "ville": "Montréal",
+        "adresse_principale": "260, rue Elgar",
+        "telephone": "5147657270",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": "Ascenseur",
+        "long": -73.552312,
+        "lat": 45.455735
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.552312, 45.455735] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire de Rivière-des-Prairies",
+        "ville": "Montréal",
+        "adresse_principale": "9140, boulevard Perras",
+        "telephone": "5148729815",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.577394,
+        "lat": 45.650296
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.577394, 45.650296] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire d'Anjou",
+        "ville": "Montréal",
+        "adresse_principale": "7800, boulevard Métropolitain Est",
+        "telephone": "5144938222",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.563697,
+        "lat": 45.606541
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.563697, 45.606541] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre culturel de Pierrefonds",
+        "ville": "Montréal",
+        "adresse_principale": "13850, boulevard Gouin Ouest",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Pierrefonds-Roxboro",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.84891,
+        "lat": 45.496618
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.84891, 45.496618] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Galerie d’Outremont",
+        "ville": "Montréal",
+        "adresse_principale": "41, avenue Saint-Just",
+        "telephone": "5144957419",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Outremont",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.608452,
+        "lat": 45.517934
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.608452, 45.517934] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison culturelle et communautaire de Montréal-Nord",
+        "ville": "Montréal",
+        "adresse_principale": "12004, boulevard Rolland",
+        "telephone": "5143284000",
+        "telephone_numero_poste": "5630",
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.62235,
+        "lat": 45.615812
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.62235, 45.615812] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "L’Entrepôt - maison de la culture de Lachine",
+        "ville": "Montréal",
+        "adresse_principale": "2901, boulevard Saint-Joseph",
+        "telephone": "5146392247",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.68961,
+        "lat": 45.433338
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.68961, 45.433338] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Salle Pauline-Julien",
+        "ville": "Montréal",
+        "adresse_principale": "15615, Gouin Boulevard Ouest",
+        "telephone": "5146261616",
+        "telephone_numero_poste": null,
+        "arrdondissement": "L'Île-Bizard–Sainte-Geneviève",
+        "accessibilite": "Zone de débarcadère pour transport adapté",
+        "long": -73.869064,
+        "lat": 45.483577
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.869064, 45.483577] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Théâtre Mirella et Lino Saputo",
+        "ville": "Montréal",
+        "adresse_principale": "8370, boulevard Lacordaire",
+        "telephone": "5149558370",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.596896718012005,
+        "lat": 45.585745173471999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.596896718012005, 45.585745173471999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Salle de diffusion de Parc-Extension",
+        "ville": "Montréal",
+        "adresse_principale": "421, rue Saint-Roch",
+        "telephone": "5148728124",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.628874949422993,
+        "lat": 45.531428834242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.628874949422993, 45.531428834242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Quai 5160 – Maison de la culture de Verdun",
+        "ville": "Montréal",
+        "adresse_principale": "5160, boulevard LaSalle",
+        "telephone": "5148724995",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": "Accessible en fauteuil roulant",
+        "long": -73.563987662721999,
+        "lat": 45.453875751695001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.563987662721999, 45.453875751695001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture de Rosemont–La Petite-Patrie",
+        "ville": "Montréal",
+        "adresse_principale": "6707, avenue De Lorimier",
+        "telephone": "5148721730",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rosemont–La Petite-Patrie",
+        "accessibilite": "Bouton-poussoir à l'entrée de la toilette accessible",
+        "long": -73.598139,
+        "lat": 45.54742
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.598139, 45.54742] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Mercier",
+        "ville": "Montréal",
+        "adresse_principale": "8105, rue Hochelaga",
+        "telephone": "5148728755",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Places de stationnement réservées (vignette)",
+        "long": -73.523843,
+        "lat": 45.595475
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.523843, 45.595475] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Marie-Uguay",
+        "ville": "Montréal",
+        "adresse_principale": "6052, boulevard Monk",
+        "telephone": "5148722044",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Porte à ouverture automatique",
+        "long": -73.595584157413001,
+        "lat": 45.457710041642002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.595584157413001, 45.457710041642002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Maisonneuve",
+        "ville": "Montréal",
+        "adresse_principale": "4200, rue Ontario Est",
+        "telephone": "5148722200",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.540236,
+        "lat": 45.5512
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.540236, 45.5512] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Janine-Sutto",
+        "ville": "Montréal",
+        "adresse_principale": "2550, rue Ontario Est",
+        "telephone": "5148727882",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.551399,
+        "lat": 45.532827
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.551399, 45.532827] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture du Plateau-Mont-Royal",
+        "ville": "Montréal",
+        "adresse_principale": "465, avenue du Mont-Royal Est",
+        "telephone": "5148722266",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Ascenseur",
+        "long": -73.582684,
+        "lat": 45.524952
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.582684, 45.524952] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture de Pointe-aux-Trembles",
+        "ville": "Montréal",
+        "adresse_principale": "14001, rue Notre-Dame Est",
+        "telephone": "5148722240",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.494899,
+        "lat": 45.667876
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.494899, 45.667876] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Notre-Dame-de-Grâce – Botrel",
+        "ville": "Montréal",
+        "adresse_principale": "3755, rue Botrel",
+        "telephone": "5148722157",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.61437,
+        "lat": 45.475571
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.61437, 45.475571] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture de Côte-des-Neiges",
+        "ville": "Montréal",
+        "adresse_principale": "5290, chemin de la Côte-des-Neiges",
+        "telephone": "5148726889",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.622245,
+        "lat": 45.4959
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.622245, 45.4959] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Claude-Léveillée",
+        "ville": "Montréal",
+        "adresse_principale": "911, rue Jean-Talon Est",
+        "telephone": "5148726131",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.613258,
+        "lat": 45.541562
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.613258, 45.541562] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Ahuntsic",
+        "ville": "Montréal",
+        "adresse_principale": "10300, rue Lajeunesse",
+        "telephone": "5148728749",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.662956,
+        "lat": 45.553373
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.662956, 45.553373] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Galerie Port-Maurice",
+        "ville": "Montréal",
+        "adresse_principale": "8420, boulevard Lacordaire",
+        "telephone": "5143288500",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.598376,
+        "lat": 45.58577
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.598376, 45.58577] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre d'exposition Lethbridge",
+        "ville": "Montréal",
+        "adresse_principale": "2727, boulevard Thimens",
+        "telephone": "5148556130",
+        "telephone_numero_poste": "4443",
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Porte à ouverture automatique",
+        "long": -73.704747,
+        "lat": 45.504489
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.704747, 45.504489] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre des loisirs de Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "1375, rue Grenet",
+        "telephone": "5148556110",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.690617,
+        "lat": 45.514224
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.690617, 45.514224] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Gymnase du Collège Reine-Marie",
+        "ville": "Montréal",
+        "adresse_principale": "9300, boulevard Saint-Michel",
+        "telephone": "5148726689",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Ascenseur",
+        "long": -73.633012,
+        "lat": 45.572774
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.633012, 45.572774] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Complexe sportif de Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "2385, boulevard Thimens",
+        "telephone": "5148556110",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Places de stationnement réservées (vignette)",
+        "long": -73.703017,
+        "lat": 45.507608
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.703017, 45.507608] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Complexe sportif Claude-Robillard",
+        "ville": "Montréal",
+        "adresse_principale": "1000, avenue Émile-Journault",
+        "telephone": "5148726900",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.636015,
+        "lat": 45.552694
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.636015, 45.552694] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre Gadbois",
+        "ville": "Montréal",
+        "adresse_principale": "5485, chemin de la Côte-Saint-Paul",
+        "telephone": "5148722786",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Signalisation accessible",
+        "long": -73.59552,
+        "lat": 45.466947
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.59552, 45.466947] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre sportif Trenholme",
+        "ville": "Montréal",
+        "adresse_principale": "6800, rue Sherbrooke Ouest",
+        "telephone": "5144814634",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.632275,
+        "lat": 45.460926
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.632275, 45.460926] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre sportif Côte-des-Neiges",
+        "ville": "Montréal",
+        "adresse_principale": "4880, avenue Van Horne",
+        "telephone": "5143429988",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Ascenseur",
+        "long": -73.638062,
+        "lat": 45.492694
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.638062, 45.492694] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de l'environnement de Verdun",
+        "ville": "Montréal",
+        "adresse_principale": "673, 1re Avenue",
+        "telephone": "5147658378",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": "Places de stationnement réservées (vignette)",
+        "long": -73.573435063721007,
+        "lat": 45.458842822690997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.573435063721007, 45.458842822690997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison Nivard-De Saint-Dizier, musée et site archéologique",
+        "ville": "Montréal",
+        "adresse_principale": "7244, boulevard LaSalle",
+        "telephone": "5147657284",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rosemont–La Petite-Patrie",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.582882536873001,
+        "lat": 45.437477344108999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.582882536873001, 45.437477344108999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Musée de Lachine",
+        "ville": "Montréal",
+        "adresse_principale": "1, chemin du Musée",
+        "telephone": "5143676423",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.666455,
+        "lat": 45.429888
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.666455, 45.429888] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc Roger-Rousseau",
+        "ville": "Montréal",
+        "adresse_principale": "7501, avenue Rondeau",
+        "telephone": "5144938234",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": null,
+        "long": -73.549869,
+        "lat": 45.61682
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.549869, 45.61682] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc Nicolas-Tillemont",
+        "ville": "Montréal",
+        "adresse_principale": "7833, avenue des Érables",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": null,
+        "long": -73.612411022185995,
+        "lat": 45.554688931290997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.612411022185995, 45.554688931290997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc Hébert",
+        "ville": "Montréal",
+        "adresse_principale": "7505, boulevard Provencher",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.606883502989007,
+        "lat": 45.589822035129004
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.606883502989007, 45.589822035129004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc Ferland",
+        "ville": "Montréal",
+        "adresse_principale": "6020, boulevard Lavoisier",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.599250848474995,
+        "lat": 45.596508720343998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.599250848474995, 45.596508720343998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc De Normanville",
+        "ville": "Montréal",
+        "adresse_principale": "7480, rue De Normanville",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Plage progressive",
+        "long": -73.616128,
+        "lat": 45.546088
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.616128, 45.546088] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc Champdoré",
+        "ville": "Montréal",
+        "adresse_principale": "2400, rue Champdoré",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": null,
+        "long": -73.635534412243004,
+        "lat": 45.568498642788001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.635534412243004, 45.568498642788001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine Saint-Roch",
+        "ville": "Montréal",
+        "adresse_principale": "400, avenue Ball",
+        "telephone": "5148727177",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": null,
+        "long": -73.630751967430001,
+        "lat": 45.531984926263
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.630751967430001, 45.531984926263]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine Villeray",
+        "ville": "Montréal",
+        "adresse_principale": "7355, avenue Christophe-Colomb",
+        "telephone": "5142738535",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": null,
+        "long": -73.614610433577994,
+        "lat": 45.544008708806999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.614610433577994, 45.544008708806999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine du centre Jean-Claude-Malépart",
+        "ville": "Montréal",
+        "adresse_principale": "2633, rue Ontario Est",
+        "telephone": "5145216884",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": null,
+        "long": -73.552098870277007,
+        "lat": 45.534002846798998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.552098870277007, 45.534002846798998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Villeray–Saint-Michel–Parc-Extension",
+        "ville": "Montréal",
+        "adresse_principale": "405, avenue Ogilvy",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": null,
+        "long": -73.625092506409004,
+        "lat": 45.530538141651
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.625092506409004, 45.530538141651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Ville-Marie",
+        "ville": "Montréal",
+        "adresse_principale": "800, boulevard De Maisonneuve Est",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": null,
+        "long": -73.558973737117995,
+        "lat": 45.515993766217001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.558973737117995, 45.515993766217001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Verdun",
+        "ville": "Montréal",
+        "adresse_principale": "4555, rue de Verdun",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": null,
+        "long": -73.573132753371993,
+        "lat": 45.459235124433
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.573132753371993, 45.459235124433]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Pointe-aux-Trembles",
+        "ville": "Montréal",
+        "adresse_principale": "12090, rue Notre-Dame Est",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": null,
+        "long": -73.489377,
+        "lat": 45.640558
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.489377, 45.640558] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Rivière-des-Prairies",
+        "ville": "Montréal",
+        "adresse_principale": "8910, boulevard Maurice-Duplessis",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": null,
+        "long": -73.576050996779998,
+        "lat": 45.641359099710002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.576050996779998, 45.641359099710002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Rosemont–La Petite-Patrie",
+        "ville": "Montréal",
+        "adresse_principale": "5650, rue D'Iberville",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rosemont–La Petite-Patrie",
+        "accessibilite": null,
+        "long": -73.581678271293995,
+        "lat": 45.544331812484998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.581678271293995, 45.544331812484998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Pierrefonds-Roxboro",
+        "ville": "Montréal",
+        "adresse_principale": "13665, boulevard de Pierrefonds",
+        "telephone": "311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Pierrefonds-Roxboro",
+        "accessibilite": null,
+        "long": -73.848064541816996,
+        "lat": 45.495337872825999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.848064541816996, 45.495337872825999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Le Plateau-Mont-Royal",
+        "ville": "Montréal",
+        "adresse_principale": "201, avenue Laurier Est",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": null,
+        "long": -73.591157197952001,
+        "lat": 45.525122703195002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.591157197952001, 45.525122703195002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Montréal-Nord",
+        "ville": "Montréal",
+        "adresse_principale": "4243, rue de Charleroi",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Accessible en fauteuil roulant avec assistance",
+        "long": -73.620419,
+        "lat": 45.602659
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.620419, 45.602659] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Mercier–Hochelaga-Maisonneuve",
+        "ville": "Montréal",
+        "adresse_principale": "6854, rue Sherbrooke Est",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Ascenseur",
+        "long": -73.541359305382002,
+        "lat": 45.584926652413003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.541359305382002, 45.584926652413003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Saint-Léonard",
+        "ville": "Montréal",
+        "adresse_principale": "8400, boulevard Lacordaire",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.596822023391994,
+        "lat": 45.586315724311
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.596822023391994, 45.586315724311]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Anjou",
+        "ville": "Montréal",
+        "adresse_principale": "7171, rue Bombardier",
+        "telephone": "5144935115",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Accessible en fauteuil roulant avec assistance",
+        "long": -73.586608,
+        "lat": 45.607577
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.586608, 45.607577] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Lachine",
+        "ville": "Montréal",
+        "adresse_principale": "1800, boulevard Saint-Joseph",
+        "telephone": "5146392140",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Accessible en fauteuil roulant avec assistance",
+        "long": -73.680997,
+        "lat": 45.433316
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.680997, 45.433316] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Le Plateau-Mont-Royal",
+        "ville": "Montréal",
+        "adresse_principale": "201, avenue Laurier Est",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Ascenseur",
+        "long": -73.591167,
+        "lat": 45.525128
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.591167, 45.525128] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Le Sud-Ouest",
+        "ville": "Montréal",
+        "adresse_principale": "815, rue Bel-Air",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": "Équipement adapté",
+        "long": -73.583250751451416,
+        "lat": 45.482718207213473
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.583250751451416, 45.482718207213473]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Pierrefonds-Roxboro",
+        "ville": "Montréal",
+        "adresse_principale": "13665, boulevard de Pierrefonds",
+        "telephone": "311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Pierrefonds-Roxboro",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.84834,
+        "lat": 45.495477
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.84834, 45.495477] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Rivière-des-Prairies–Pointe-aux-Trembles",
+        "ville": "Montréal",
+        "adresse_principale": "12090, rue Notre-Dame Est",
+        "telephone": "5148684343",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": "Ascenseur",
+        "long": -73.488946,
+        "lat": 45.640688
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.488946, 45.640688] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Rosemont–La Petite-Patrie",
+        "ville": "Montréal",
+        "adresse_principale": "5650, rue D'Iberville",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rosemont–La Petite-Patrie",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.581674,
+        "lat": 45.544332
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.581674, 45.544332] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Saint-Léonard",
+        "ville": "Montréal",
+        "adresse_principale": "8400, boulevard Lacordaire",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.597127,
+        "lat": 45.585482
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.597127, 45.585482] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Verdun",
+        "ville": "Montréal",
+        "adresse_principale": "4555, rue de Verdun",
+        "telephone": "5147657083",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": "Accessible en fauteuil roulant",
+        "long": -73.57386,
+        "lat": 45.459114
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.57386, 45.459114] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Ville-Marie",
+        "ville": "Montréal",
+        "adresse_principale": "800, boulevard De Maisonneuve Est",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.559733,
+        "lat": 45.516518
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.559733, 45.516518] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir des permis – Villeray–Saint-Michel–Parc Extension",
+        "ville": "Montréal",
+        "adresse_principale": "405, avenue Ogilvy",
+        "telephone": "5148683509",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Ascenseur",
+        "long": -73.625216,
+        "lat": 45.530724
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.625216, 45.530724] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "ville": "Montréal",
+        "adresse_principale": "5160, boulevard Décarie",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.630852,
+        "lat": 45.483864
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.630852, 45.483864] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Anjou",
+        "ville": "Montréal",
+        "adresse_principale": "7701, boulevard Louis-H.-La Fontaine",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Accessible en fauteuil roulant",
+        "long": -73.557753,
+        "lat": 45.602383
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.557753, 45.602383] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bureau Accès Montréal – Lachine",
+        "ville": "Montréal",
+        "adresse_principale": "1800, boulevard Saint-Joseph",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.680997,
+        "lat": 45.433316
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.680997, 45.433316] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine Lévesque",
+        "ville": "Montréal",
+        "adresse_principale": "955, rue Marie-Anne Est",
+        "telephone": "5148722823",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.577898,
+        "lat": 45.526249
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.577898, 45.526249] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine du centre du Plateau",
+        "ville": "Montréal",
+        "adresse_principale": "2275, boulevard Saint-Joseph Est",
+        "telephone": "5148721178",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.575971,
+        "lat": 45.539769
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.575971, 45.539769] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine du Centre sportif de Notre-Dame-de-Grâce",
+        "ville": "Montréal",
+        "adresse_principale": "6445, avenue de Monkland",
+        "telephone": "5144814634",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Ascenseur",
+        "long": -73.632712,
+        "lat": 45.46651
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.632712, 45.46651] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine du Centre sportif Côte-des-Neiges",
+        "ville": "Montréal",
+        "adresse_principale": "4880, avenue Van Horne",
+        "telephone": "5143429988",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Ascenseur",
+        "long": -73.638316241179993,
+        "lat": 45.492818895307003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.638316241179993, 45.492818895307003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine du Complexe sportif de l'école secondaire d'Anjou",
+        "ville": "Montréal",
+        "adresse_principale": "5515, avenue de l'Aréna",
+        "telephone": "5144938200",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Accessible en fauteuil roulant",
+        "long": -73.540687986112005,
+        "lat": 45.602617349317001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.540687986112005, 45.602617349317001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine du complexe sportif Claude-Robillard",
+        "ville": "Montréal",
+        "adresse_principale": "1000, avenue Émile-Journault",
+        "telephone": "5148726900",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.633238797726818,
+        "lat": 45.551423889624147
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.633238797726818, 45.551423889624147]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison du citoyen",
+        "ville": "Montréal",
+        "adresse_principale": "12090, rue Notre-Dame Est",
+        "telephone": "311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Accessible en fauteuil roulant avec assistance",
+        "long": -73.489377,
+        "lat": 45.640558
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.489377, 45.640558] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "La STATION - Maison intergénérationnelle",
+        "ville": "Montréal",
+        "adresse_principale": "201, rue Berlioz, Verdun",
+        "telephone": "5147664301",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Verdun",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.544614,
+        "lat": 45.460121
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.544614, 45.460121] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de Verdun",
+        "ville": "Montréal",
+        "adresse_principale": "4555, rue de Verdun",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.573331,
+        "lat": 45.458965
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.573331, 45.458965] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de LaSalle",
+        "ville": "Montréal",
+        "adresse_principale": "55, avenue Dupras",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.661233,
+        "lat": 45.42832
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.661233, 45.42832] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de Saint-Léonard",
+        "ville": "Montréal",
+        "adresse_principale": "8400, boulevard Lacordaire",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.596704006194997,
+        "lat": 45.586387054101998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.596704006194997, 45.586387054101998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de Pierrefonds-Roxboro",
+        "ville": "Montréal",
+        "adresse_principale": "13665, boulevard de Pierrefonds",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": null,
+        "long": -73.848159,
+        "lat": 45.495489
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.848159, 45.495489] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de Lachine",
+        "ville": "Montréal",
+        "adresse_principale": "1800, boulevard Saint-Joseph",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Lachine",
+        "accessibilite": null,
+        "long": -73.680909276009004,
+        "lat": 45.433104704637998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.680909276009004, 45.433104704637998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre culturel de Notre-Dame-de-Grâce",
+        "ville": "Montréal",
+        "adresse_principale": "6400, avenue de Monkland",
+        "telephone": "5148720777",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": null,
+        "long": -73.630991055400003,
+        "lat": 45.466322991253001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.630991055400003, 45.466322991253001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de Villeray–Saint-Michel–Parc-Extension",
+        "ville": "Montréal",
+        "adresse_principale": "405, avenue Ogilvy",
+        "telephone": "5148720755",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": null,
+        "long": -73.625038862227996,
+        "lat": 45.530673426984002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.625038862227996, 45.530673426984002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison du Brasseur",
+        "ville": "Montréal",
+        "adresse_principale": "2901, boulevard Saint-Joseph",
+        "telephone": "5146392247",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": null,
+        "long": -73.689913,
+        "lat": 45.433365
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.689913, 45.433365] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Vieille-Brasserie-Dawes",
+        "ville": "Montréal",
+        "adresse_principale": "2801, boulevard Saint-Joseph",
+        "telephone": "5146392247",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": null,
+        "long": -73.688774478495006,
+        "lat": 45.433437937706998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.688774478495006, 45.433437937706998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de Montréal-Nord",
+        "ville": "Montréal",
+        "adresse_principale": "4243, rue de Charleroi",
+        "telephone": "311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.638189475976006,
+        "lat": 45.594436418001997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.638189475976006, 45.594436418001997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mairie d'arrondissement de Saint-Laurent",
+        "ville": "Saint-Laurent",
+        "adresse_principale": "777, boulevard Marcel-Laurin",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": null,
+        "long": -73.682695627212993,
+        "lat": 45.507264222937998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.682695627212993, 45.507264222937998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "YMCA Cartierville",
+        "ville": "Montréal",
+        "adresse_principale": "11885, Boulevard Laurentien",
+        "telephone": "5143131047",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": null,
+        "long": -73.711066,
+        "lat": 45.525394
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.711066, 45.525394] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc Le Prévost",
+        "ville": "Montréal",
+        "adresse_principale": "7275, avenue Christophe-Colomb",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": null,
+        "long": -73.613719940186002,
+        "lat": 45.543527806870003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.613719940186002, 45.543527806870003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre communautaire Marcel-Morin",
+        "ville": "Montréal",
+        "adresse_principale": "14068, boulevard Gouin Ouest",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Pierrefonds-Roxboro",
+        "accessibilite": null,
+        "long": -73.850751,
+        "lat": 45.495477
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.850751, 45.495477] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+        "ville": "Montréal",
+        "adresse_principale": "6400, avenue de Monkland",
+        "telephone": "5148720777",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": null,
+        "long": -73.630945,
+        "lat": 45.466598
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.630945, 45.466598] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Benny Fab",
+        "ville": "Montréal",
+        "adresse_principale": "6400, avenue de Monkland",
+        "telephone": "5148723500",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": null,
+        "long": -73.630945,
+        "lat": 45.466598
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.630945, 45.466598] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon d'accueil du parc Frédéric-Back",
+        "ville": "Montréal",
+        "adresse_principale": "2345, rue Jarry Est",
+        "telephone": "5143768648",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.616115399948995,
+        "lat": 45.558694317880999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.616115399948995, 45.558694317880999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison Pitfield du parc-nature du Bois-de-Liesse",
+        "ville": "Montréal",
+        "adresse_principale": "9432, boulevard Gouin Ouest",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.763487209405994,
+        "lat": 45.506492212205998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.763487209405994, 45.506492212205998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Complexe sportif St-Jean-Vianney",
+        "ville": "Montréal",
+        "adresse_principale": "12640, boulevard Gouin Est",
+        "telephone": "5148728014",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Places de stationnement réservées (vignette)",
+        "long": -73.519722205955006,
+        "lat": 45.691600408870997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.519722205955006, 45.691600408870997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc de la Savane et Centre communautaire",
+        "ville": "Montréal",
+        "adresse_principale": "5111, rue Paré",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Sentier d'accès",
+        "long": -73.653987687072998,
+        "lat": 45.498316567921002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.653987687072998, 45.498316567921002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Coubertin",
+        "ville": "Montréal",
+        "adresse_principale": "4755, rue Valéry",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.610104322433003,
+        "lat": 45.583856668191999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.610104322433003, 45.583856668191999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Delorme",
+        "ville": "Montréal",
+        "adresse_principale": "6060, rue de Honfleur",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.588021438561,
+        "lat": 45.590859067162
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.588021438561, 45.590859067162]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Ferland",
+        "ville": "Montréal",
+        "adresse_principale": "6020, boulevard Lavoisier",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.598664443931995,
+        "lat": 45.596849968701001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.598664443931995, 45.596849968701001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Giuseppe-Garibaldi",
+        "ville": "Montréal",
+        "adresse_principale": "7125, rue Liénart",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.570340316734999,
+        "lat": 45.586939860758001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.570340316734999, 45.586939860758001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Ladauversière",
+        "ville": "Montréal",
+        "adresse_principale": "7560, boulevard Lacordaire",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.583515327415995,
+        "lat": 45.580707608924001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.583515327415995, 45.580707608924001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon Hexagonal",
+        "ville": "Montréal",
+        "adresse_principale": "5555 Rue Jean-Talon Est",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.582592647515,
+        "lat": 45.580842773531998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.582592647515, 45.580842773531998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Luigi-Pirandello",
+        "ville": "Montréal",
+        "adresse_principale": "4550, rue de Compiègne",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.604350727043993,
+        "lat": 45.578559949824999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.604350727043993, 45.578559949824999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Pie-XII",
+        "ville": "Montréal",
+        "adresse_principale": "5200, boulevard Lavoisier",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.608470600090996,
+        "lat": 45.588876973986999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.608470600090996, 45.588876973986999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Wilfrid-Bastien",
+        "ville": "Montréal",
+        "adresse_principale": "8255, boulevard Lacordaire",
+        "telephone": "5148720311",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": null,
+        "long": -73.594888303646002,
+        "lat": 45.586111156377001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.594888303646002, 45.586111156377001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc Champdoré",
+        "ville": "Montréal",
+        "adresse_principale": "2400, rue Champdoré",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.635801228519995,
+        "lat": 45.569192701683001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.635801228519995, 45.569192701683001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc De Normanville",
+        "ville": "Montréal",
+        "adresse_principale": "7480, rue De Normanville",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Zone de débarcadère",
+        "long": -73.616152446708995,
+        "lat": 45.546137582188997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.616152446708995, 45.546137582188997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc de Turin",
+        "ville": "Montréal",
+        "adresse_principale": "7205, rue Chambord",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.610348146400995,
+        "lat": 45.545215645688998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.610348146400995, 45.545215645688998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc Nicolas-Tillemont",
+        "ville": "Montréal",
+        "adresse_principale": "7833, avenue des Érables",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.612054031335006,
+        "lat": 45.554870177117998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.612054031335006, 45.554870177117998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc Gary-Longhi",
+        "ville": "Montréal",
+        "adresse_principale": "7645, 20e Avenue",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.598798554382995,
+        "lat": 45.567906595003002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.598798554382995, 45.567906595003002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre récréatif et communautaire de LaSalle",
+        "ville": "Montréal",
+        "adresse_principale": "8700, rue Hardy",
+        "telephone": "5143676637",
+        "telephone_numero_poste": null,
+        "arrdondissement": "LaSalle",
+        "accessibilite": "Zone de débarcadère pour transport adapté",
+        "long": -73.636003743017113,
+        "lat": 45.433462085704917
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.636003743017113, 45.433462085704917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Terrain de soccer du complexe sportif de Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "2385, boulevard Thimens",
+        "telephone": "5148556110",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.703346081360081,
+        "lat": 45.50777614600824
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.703346081360081, 45.50777614600824]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Hébert",
+        "ville": "Montréal",
+        "adresse_principale": "7505, boulevard Provencher",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Léonard",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.607020602622995,
+        "lat": 45.589403435264998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.607020602622995, 45.589403435264998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Gilbert-Layton",
+        "ville": "Montréal",
+        "adresse_principale": "6975, avenue Chester",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.650414598222,
+        "lat": 45.465826773887002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.650414598222, 45.465826773887002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Notre-Dame-de-Grâce",
+        "ville": "Montréal",
+        "adresse_principale": "3500, avenue Girouard",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.614756849626005,
+        "lat": 45.472945797702003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.614756849626005, 45.472945797702003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Piscine du Complexe sportif Marie-Victorin",
+        "ville": "Montréal",
+        "adresse_principale": "7000, rue Marie-Victorin",
+        "telephone": "5148687698",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.608935336737005,
+        "lat": 45.619547954978003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.608935336737005, 45.619547954978003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon du parc Henri-Bourassa",
+        "ville": "Montréal",
+        "adresse_principale": "6100, rue Pascal",
+        "telephone": "5143284000",
+        "telephone_numero_poste": "5559",
+        "arrdondissement": "Montréal-Nord",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.622568290673001,
+        "lat": 45.616109610823003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.622568290673001, 45.616109610823003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Fabricathèque du Sud-Ouest",
+        "ville": "Montréal",
+        "adresse_principale": "4707, rue Notre-Dame Ouest",
+        "telephone": "5148722879",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Sud-Ouest",
+        "accessibilite": null,
+        "long": -73.589229830649003,
+        "lat": 45.472462234683
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.589229830649003, 45.472462234683]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc Armand-Bombardier",
+        "ville": "Montréal",
+        "adresse_principale": "12535, boulevard Armand-Bombardier",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": null,
+        "long": -73.597084854908005,
+        "lat": 45.639412435266998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.597084854908005, 45.639412435266998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc Sir-Wilfrid-Laurier",
+        "ville": "Montréal",
+        "adresse_principale": "1115, avenue Laurier Est",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.585624694824006,
+        "lat": 45.531455993652003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.585624694824006, 45.531455993652003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre de loisirs Saint-Denis",
+        "ville": "Montréal",
+        "adresse_principale": "5115, rue Rivard",
+        "telephone": "5142747358",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Toilette accessible en cabine",
+        "long": -73.589367627661005,
+        "lat": 45.527870579975001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.589367627661005, 45.527870579975001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Pavillon multifonctionnel de l'esplanade Tranquille",
+        "ville": "Montréal",
+        "adresse_principale": "Au cœur du Quartier des spectacles",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Ascenseur",
+        "long": -73.564957380294999,
+        "lat": 45.509595055481
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.564957380294999, 45.509595055481]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Comptoir de la géomatique",
+        "ville": "Montréal",
+        "adresse_principale": "801 rue Brennan",
+        "telephone": "5148723521",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ville-Marie",
+        "accessibilite": "Rampe d'accès",
+        "long": -73.553492,
+        "lat": 45.496046
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.553492, 45.496046] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Salle d’exposition Goncourt",
+        "ville": "Montréal",
+        "adresse_principale": "7500, avenue Goncourt",
+        "telephone": "5144938260",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Entrée de plain-pied",
+        "long": -73.558411,
+        "lat": 45.602902
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.558411, 45.602902] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc Raymond-Préfontaine",
+        "ville": "Montréal",
+        "adresse_principale": "3150, rue Hochelaga",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": null,
+        "long": -73.552718101647343,
+        "lat": 45.541693890364144
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.552718101647343, 45.541693890364144]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "L'Artère fabricathèque",
+        "ville": "Montréal",
+        "adresse_principale": "14001, rue Notre-Dame Est",
+        "telephone": "5148724203",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+        "accessibilite": null,
+        "long": -73.494866249335004,
+        "lat": 45.668123472045004
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.494866249335004, 45.668123472045004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre culturel et communautaire de Cartierville",
+        "ville": "Montréal",
+        "adresse_principale": "12225, rue Grenet",
+        "telephone": "5148726356",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Ahuntsic-Cartierville",
+        "accessibilite": "Toilettes accessibles",
+        "long": -73.715802,
+        "lat": 45.530181
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.715802, 45.530181] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mixlab de la Bibliothèque du Boisé",
+        "ville": "Montréal",
+        "adresse_principale": "2727, boulevard Thimens",
+        "telephone": "5148556130",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Zone de débarcadère pour transport adapté",
+        "long": -73.701383,
+        "lat": 45.507869
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.701383, 45.507869] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Salle de spectacle de l’église Jean XXIII",
+        "ville": "Montréal",
+        "adresse_principale": "7101, avenue de l' Alsace",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Anjou",
+        "accessibilite": "Zone de débarcadère pour transport adapté",
+        "long": -73.582243996202465,
+        "lat": 45.604518092110681
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.582243996202465, 45.604518092110681]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Gymnase du complexe sportif de Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "2385, boulevard Thimens",
+        "telephone": "5148556110",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.703017,
+        "lat": 45.507608
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.703017, 45.507608] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Salle multifonctionnelle du Complexe sportif de Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "2385, boulevard Thimens",
+        "telephone": "5148556110",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Stationnement accessible",
+        "long": -73.703017,
+        "lat": 45.507608
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.703017, 45.507608] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet du parc La Fontaine",
+        "ville": "Montréal",
+        "adresse_principale": "3933, avenue du Parc-La Fontaine",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Le Plateau-Mont-Royal",
+        "accessibilite": "Sentier d'accès",
+        "long": -73.569497055241044,
+        "lat": 45.525212758002425
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.569497055241044, 45.525212758002425]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Médialab Maisonneuve",
+        "ville": "Montréal",
+        "adresse_principale": "4120, rue Ontario Est",
+        "telephone": "5148724213",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": null,
+        "long": -73.540722,
+        "lat": 45.550621
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.540722, 45.550621] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Édifice Emmanuel-Arthur-Doucet",
+        "ville": "Montréal",
+        "adresse_principale": "3622, rue Hochelaga",
+        "telephone": "5145236363",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Mercier–Hochelaga-Maisonneuve",
+        "accessibilite": null,
+        "long": -73.550821,
+        "lat": 45.547286
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.550821, 45.547286] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chalet Ogilvy",
+        "ville": "Montréal",
+        "adresse_principale": "821, avenue Ogilvy",
+        "telephone": null,
+        "telephone_numero_poste": null,
+        "arrdondissement": "Villeray–Saint-Michel–Parc-Extension",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.627033,
+        "lat": 45.526606
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.627033, 45.526606] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Salle d’entraînement du Complexe sportif de Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "2385, boulevard Thimens",
+        "telephone": "5148556110",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Ascenseur",
+        "long": -73.703017,
+        "lat": 45.507608
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.703017, 45.507608] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture Saint-Laurent",
+        "ville": "Montréal",
+        "adresse_principale": "2727, boulevard Thimens",
+        "telephone": "5148556130",
+        "telephone_numero_poste": "4443",
+        "arrdondissement": "Saint-Laurent",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.705031749892356,
+        "lat": 45.504363696952851
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.705031749892356, 45.504363696952851]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Maison de la culture d'Outremont",
+        "ville": "Montréal",
+        "adresse_principale": "41, avenue Saint-Just",
+        "telephone": "5144957419",
+        "telephone_numero_poste": null,
+        "arrdondissement": "Outremont",
+        "accessibilite": "Adapté aux poussettes",
+        "long": -73.608412,
+        "lat": 45.517911
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.608412, 45.517911] }
+    }
+  ]
+}
