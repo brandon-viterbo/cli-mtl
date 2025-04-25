@@ -13,6 +13,7 @@ import TileLayer from "ol/layer/Tile";
 import VectorLayer from "ol/layer/Vector";
 import defaultMarker from "../../resources/images/default-map-marker.png";
 import selectedMarker from "../../resources/images/selected-map-marker.png";
+import "ol/ol.css";
 
 function PlaceCard({ place }) {
   return (
